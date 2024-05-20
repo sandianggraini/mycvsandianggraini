@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('palting.jpg');
+    color: #b2d330;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #5b9410;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.photo-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.photo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo-description {
+    padding: 1rem;
+    text-align: center;
+}
+
+.photo-description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.photo-description p {
+    font-size: 1rem;
+    color: #62054e;
+}
+
+.cv-section {
+    padding: 1rem;
+    text-align: center;
+    display: none;
+}
+
+.cv-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2c9dd1;
+}
+
+.cv-section p {
+    font-size: 1rem;
+    color: #5209b1;
+}
+
+.cv-section img.icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #5be51c;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social-icons a i {
+    font-size: 1.5rem;
+}
